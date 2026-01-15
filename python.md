@@ -68,6 +68,16 @@ BMI = weight / (height * height)
 
 print(BMI)
 
+
+## 1/15
+- セットについて:順列を持たずその要素は重複しないため種類の管理に向いている。
+ 変数　= {値１、値２}
+
+
+graph TD
+    User -->|SSH| EC2
+    EC2 --> Internet
+
   
    
 
