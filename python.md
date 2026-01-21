@@ -84,20 +84,36 @@ print(BMI)
 ## 1/18
 ## 
 
-### やったこと
+## やったこと
 - `score.py` というPythonファイルを作成
 - ターミナルから python3 score.py を実行した
 
-### つまずいた点
+## つまずいた点
 - command not found や No such file or directoryが出た
 - nano score.pyにいらないものを書いていた
 - ファイルが存在するディレクトリと、現在のディレクトリが一致していなかった
 
-### 学んだこと
+## 学んだこと
 - ls でファイルの存在を確認できる
 - cd で実行したいディレクトリに移動する必要がある
 - .py ファイルは以下の形で実行する  
   python3 ファイル名.py
+
+
+## 1/21
+## やったこと
+- コンテナの応用
+- ディクショナリの中にディクショナリをネスト
+- ディクショナリの中にセットをネスト
+- リストの中にリストを追加
+- 練習問題
+
+## 学んだこと
+## 使ったコード
+A_score = {"network"70,"datebase":60}  
+B_score = {"network":50,"datebase":70}  
+member_score = {"A":A_score,"B"B_score:}  
+print (member_score["A"])  
 
 
 
