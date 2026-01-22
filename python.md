@@ -122,10 +122,10 @@ member_hobbies = {'松田':{'SNS','麻雀','自転車'},
 print (member_hobbies)  
 #松田と石の趣味を表示
 print(member_hobbies['松田'])    
-print(member_hobies['石'])#数学が一回しか表示されない。  
-#共通する趣味だけ表示  
-comonn_hobies =  member_hobbies['松田']  & member_hobbies['石']  
-print = (comonn_hobies)  
+print(member_hobies['石']) #数学が一回しか表示されない。    
+#共通する趣味だけ表示    
+comonn_hobies =  member_hobbies['松田']  & member_hobbies['石']    
+print = (comonn_hobies)    
 
 
 
