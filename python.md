@@ -114,8 +114,10 @@ print(BMI)
 A_score = {"network"70,"datebase":60}  
 B_score = {"network":50,"datebase":70}  
 member_score = {"A":A_score,"B"B_score:}  
-print (A_score)    
-#松田と石の趣味の共通するものと松田の趣味を表示、ディクショナリの中にセットをネスト  
+print (A_score)
+
+#ディクショナリの中にセットをネスト  
+#松田と石の趣味の共通するものと松田の趣味を表示、  
 member_hobbies = {'松田':{'SNS','麻雀','自転車'},  
 '石':{'麻雀','オセロ','自転車','数学','数学'}}   
 
