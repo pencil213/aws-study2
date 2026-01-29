@@ -155,7 +155,26 @@ print('年が明けてから')
 print(f'{month}ヶ月が立ちました')
 
 
+## 1/29
+## やったこと
+- 繰り返しによるリスト作成
+- for文の基礎構造
 
+## コード
+- **ユーザー数**
+  count = 0
+user_num = int(input('ユーザーの数を入力してください　>>'))
+time_list = list()
+while count < user_num:
+ count += 1
+ time = int(input(f'count人目の使用時間を入力してください'))
+ time_list.append(time)
+print('time_list')
+total = sum(time_list)
+print(f'平均使用時間は{total/user_num}')
+  
+  
+  
 
   
    
