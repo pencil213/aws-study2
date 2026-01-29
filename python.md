@@ -168,7 +168,7 @@ time_list = list()  #からのリストを作成
 while count < user_num:   
  count += 1  
  time = int(input(f'count人目の使用時間を入力してください'))  
- time_list.append(time)  #リストにcount人目の使用時間を追加
+ time_list.append(time)  #リストにcount人目の使用時間を追加  
 print('time_list')  
 total = sum(time_list)  #ユーザー達の合計使用時間  
 print(f'平均使用時間は{total/user_num}')
