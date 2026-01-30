@@ -181,7 +181,8 @@ print(f'平均使用時間は{total/user_num}')
 ## コード
 ## for文
 - for 変数　in リスト名
-- 目標に達したら繰り返しを終了する　
+- 目標に達したら繰り返しを終了する
+- 不要な回のループをスキップする
   - scores = [60,50,40,75]  
     total = 0  
     for date in scores:  
@@ -202,3 +203,13 @@ print(f'平均使用時間は{total/user_num}')
             if len(samples) == num:  
                 break  
     print(samples)
+
+    - ages = [28,50,'ひみつ',20,10]  
+samples = list()  `#サンプルデータを格納するリスト`
+for data in ages:  
+    if not isinstance(data,int):  
+        continue  
+    if data < 20 or data>=30:  
+        continue  
+    samples.append(data)  
+    print(samples)  
