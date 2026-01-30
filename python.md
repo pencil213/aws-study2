@@ -193,12 +193,12 @@ print(f'平均使用時間は{total/user_num}')
     heikin = total / len(scores)  
     print (heikin)
 
-  - 'ages = [28,50,8,80,8,4,19,40]  
-    num = 5   
-    samples = list()  
+  - ages = [28,50,8,80,8,4,19,40]  '#対象データ'  
+    num = 5   '#目標の抽出数'  
+    samples = list()  '#サンプルファイルを格納する場所'  
     for data in ages:  
         if 20 <= date < 30:  
             samples.append(data)  
             if len(samples) == num:  
                 break  
-    print(samples)'
+    print(samples)
