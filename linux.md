@@ -86,4 +86,9 @@
 - 2.cd /usr(usrディレクトリに移動)
 - 3.bin games lib etc tmp ...(カレントディレクトリ内のファイルやディレクトリを表示)
 
+## 1/29
+## 使用コマンド
+- touch
+- rm
+- rmdir
   
