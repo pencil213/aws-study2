@@ -207,8 +207,8 @@ print(f'平均使用時間は{total/user_num}')
   - ages = [28,50,'ひみつ',20,10]  
 samples = list()  `#サンプルデータを格納するリスト`  
 for data in ages:  
-    if not isinstance(data,int):  
-        continue  
+    if not isinstance(data,int):  `#整数でないデータ`  
+        continue  `#スキップ`  
     if data < 20 or data>=30:  
         continue  
     samples.append(data)  
