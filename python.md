@@ -182,7 +182,7 @@ print(f'平均使用時間は{total/user_num}')
 - for 変数　in リスト名
   - scores = [60,50,40,75]  
     total = 0  
-    for date in scores:
+    for date in scores:  
      if date >= 60:  
       print ('合格')  
      else:  
