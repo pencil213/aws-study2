@@ -1,4 +1,4 @@
-## python 学習ログ
+9## python 学習ログ
 # 2025 12月29日
 - 四則演算の優先度を学んだ
 - printによって出力
@@ -179,7 +179,9 @@ print(f'平均使用時間は{total/user_num}')
 
 
 ## コード
+## for文
 - for 変数　in リスト名
+- 目標に達したら繰り返しを終了する　
   - scores = [60,50,40,75]  
     total = 0  
     for date in scores:  
@@ -191,7 +193,12 @@ print(f'平均使用時間は{total/user_num}')
     heikin = total / len(scores)  
     print (heikin)
 
-  
-   
-
- 
+  - 'ages = [28,50,8,80,8,4,19,40]  
+    num = 5   
+    samples = list()  
+    for data in ages:  
+        if 20 <= date < 30:  
+            samples.append(data)  
+            if len(samples) == num:  
+                break  
+    print(samples)'
