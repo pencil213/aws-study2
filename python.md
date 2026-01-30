@@ -158,7 +158,6 @@ print(f'{month}ヶ月が立ちました')
 ## 1/29
 ## やったこと
 - 繰り返しによるリスト作成
-- for文の基礎構造
 
 ## コード
 - **ユーザー達の使用時間を表示し、平均の使用時間を表示**  
@@ -173,8 +172,24 @@ print('time_list')
 total = sum(time_list)  #ユーザー達の合計使用時間  
 print(f'平均使用時間は{total/user_num}')
   
-  
-  
+
+## 1/30
+## やったこと
+- for文
+
+
+## コード
+- for 変数　in リスト名
+  - scores = [60,50,40,75]  
+    total = 0  
+    for date in scores:
+     if date >= 60:  
+      print ('合格')  
+     else:  
+      print('不合格')  
+     total = total + date  
+    heikin = total / len(scores)  
+    print (heikin)
 
   
    
